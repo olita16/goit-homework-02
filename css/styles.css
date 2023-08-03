@@ -1,0 +1,327 @@
+:root {
+  --slate-text-color: #434455;
+  --navy-blue-color: #2e2f42;
+  --ocean-pressed-color: #404bbf;
+  --iris-btn-color: #4d5ae5;
+  --green-success-color: #31d0aa;
+  --light-slate-color: #8e8f99;
+  --cornflower-accent-color: #e7e9fc;
+  --navy-blue-modal-color: #2e2f42;
+  --white-background-color: #ffffff;
+  --cloud-text-color: #e7e9fc;
+  --dairy-modal-background-color: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-background-color);
+  color: var(--slate-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--ocean-pressed-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.site-body {
+}
+
+/*----------HEADER---------------/* */
+
+.header {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  word-spacing: -4px;
+}
+
+.header-logo-web {
+  color: var(--iris-btn-color);
+}
+
+.header-logo-studio {
+  color: var(--navy-blue-color);
+}
+
+.header-list {
+}
+
+
+.header-item {
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--ocean-pressed-color);
+}
+
+.header-address {
+}
+
+.header-item-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-text-color);
+}
+
+.header-item-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-text-color);
+}
+
+/*----------SOLUTION SECTION---------------/* */
+
+.solution-title-section {
+  background-color: var(--navy-blue-color);
+}
+
+.solution-hidden-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-background-color);
+}
+
+.solution-btn-title {
+  background-color: var(--iris-btn-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
+  color: var(--white-background-color);
+  border: none;
+  cursor: pointer;
+}
+
+.solution-btn-title:hover {
+    background-color: var(--ocean-pressed-color);
+}
+
+/*----------ADVANTAGES SECTION---------------/* */
+
+.advantages-section {
+}
+
+/* .visually-hidden {} */
+
+.advantages-list {
+}
+
+.advantages-item {
+}
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+
+.advantages-under-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+
+/*----------PHOTO SECTION---------------/* */
+
+.photo-section {
+}
+
+.photo-section-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue-color);
+}
+
+.photo-section-list {
+}
+
+.photo-section-item {
+}
+
+/*----------EXPERT SECTION---------------/* */
+
+.expert-section {
+  background-color: var(--cloud-text-color);
+}
+
+.expert-team-general-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue-color);
+}
+
+.expert-section-list {
+}
+
+.expert-team-item {
+  background-color: var(--white-background-color);
+}
+
+.expert-team-title {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+
+.expert-position-text {
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+
+/*----------FOOTER---------------/* */
+
+.footer {
+  background-color: var(--navy-blue-color);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  word-spacing: -4px;
+}
+
+.footer-logo-web {
+  color: var(--iris-btn-color);
+}
+
+.footer-logo-studio {
+  color: var(--cloud-text-color);
+}
+
+.footer-under-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud-text-color);
+}
+
+/* ============================Portfolio ========================// */
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+}
+
+.header-address {
+}
+
+.header-item-mail {
+}
+
+.header-item-tel {
+}
+
+.portfolio-section {
+}
+
+.visually-hidden {
+}
+
+.portfolio-button-list {
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-color: var(--cornflower-accent-color);
+  color: var(--iris-btn-color);
+  border: none;
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--ocean-pressed-color);
+  color: var(--white-background-color);
+}
+
+.portfolio-photo-list {
+}
+
+.portfolio-photo-item {
+}
+
+.portfolio-photo-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+
+.portfolio-under-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
