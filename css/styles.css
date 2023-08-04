@@ -10,6 +10,7 @@
   --white-background-color: #ffffff;
   --cloud-text-color: #e7e9fc;
   --dairy-modal-background-color: #fcfcfc;
+  --expert-section-background-color: #F4F4FD;
 }
 
 body {
@@ -31,7 +32,7 @@ body {
   color: var(--ocean-pressed-color);
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -42,7 +43,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .site-body {
 }
@@ -59,16 +60,17 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   word-spacing: -4px;
-}
-
-.header-logo-web {
   color: var(--iris-btn-color);
 }
+
+/* .header-logo-web {
+  color: var(--iris-btn-color);
+} */
 
 .header-logo-studio {
   color: var(--navy-blue-color);
@@ -95,6 +97,7 @@ body {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-item-mail {
@@ -130,14 +133,15 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background-color);
   border: none;
   cursor: pointer;
 }
 
-.solution-btn-title:hover {
+.solution-btn-title:hover,
+.solution-btn-title:focus {
     background-color: var(--ocean-pressed-color);
 }
 
@@ -165,7 +169,7 @@ body {
 .advantages-under-title {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue-color);
+  color: var(--slate-text-color);
 }
 
 /*----------PHOTO SECTION---------------/* */
@@ -177,7 +181,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -193,7 +197,7 @@ body {
 /*----------EXPERT SECTION---------------/* */
 
 .expert-section {
-  background-color: var(--cloud-text-color);
+  background-color: var(--expert-section-background-color);
 }
 
 .expert-team-general-title {
@@ -214,6 +218,7 @@ body {
 }
 
 .expert-team-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
@@ -225,7 +230,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--navy-blue-color);
+  color: var(--slate-text-color);
 }
 
 /*----------FOOTER---------------/* */
@@ -238,25 +243,26 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   word-spacing: -4px;
-}
-
-.footer-logo-web {
   color: var(--iris-btn-color);
 }
 
+/* .footer-logo-web {
+  color: var(--iris-btn-color);
+} */
+
 .footer-logo-studio {
-  color: var(--cloud-text-color);
+  color: var(--expert-section-background-color);
 }
 
 .footer-under-title {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud-text-color);
+  color: var(--expert-section-background-color);
 }
 
 /* ============================Portfolio ========================// */
