@@ -10,7 +10,7 @@
   --white-background-color: #ffffff;
   --cloud-text-color: #e7e9fc;
   --dairy-modal-background-color: #fcfcfc;
-  --expert-section-background-color: #F4F4FD;
+  --expert-section-background-color: #f4f4fd;
 }
 
 body {
@@ -61,7 +61,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   word-spacing: -4px;
@@ -79,7 +78,6 @@ body {
 .header-list {
 }
 
-
 .header-item {
 }
 
@@ -93,21 +91,14 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--ocean-pressed-color);
+  color: var(--ocean-pressed-color);
 }
 
 .header-address {
   font-style: normal;
 }
 
-.header-item-mail {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate-text-color);
-}
-
-.header-item-tel {
+.header-contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -142,7 +133,7 @@ body {
 
 .solution-btn-title:hover,
 .solution-btn-title:focus {
-    background-color: var(--ocean-pressed-color);
+  background-color: var(--ocean-pressed-color);
 }
 
 /*----------ADVANTAGES SECTION---------------/* */
@@ -244,7 +235,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   word-spacing: -4px;
@@ -301,7 +291,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  background-color: var(--cornflower-accent-color);
+  background-color: var(--expert-section-background-color);
   color: var(--iris-btn-color);
   border: none;
   cursor: pointer;
