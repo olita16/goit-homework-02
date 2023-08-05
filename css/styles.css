@@ -319,7 +319,12 @@ body {
 .portfolio-photo-item {
 }
 
+.portfolio-image link {
+  text-decoration: none;
+}
+
 .portfolio-photo-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -327,7 +332,8 @@ body {
 }
 
 .portfolio-under-title {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue-color);
+  color: var(--slate-text-color);
 }
